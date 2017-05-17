@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-03-21, 13:06:57
+    Author     : Damian
+*/
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+.homepage-card{
+    color:#000;
+}
+.homepage-image-div
+{
+
+}
+.title {
+    font-size: 64px;
+    font-weight: 400;
+    padding-top: 40px;
+    color: #636b6f;
+}
+
+.links > a {
+    /*color: white;*/
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.links > div {
+    /*color: white;*/
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content .links{
+    /*margin-top: 150px;*/
+    text-shadow: 2px 2px 4px #ccc;
+}
+.m-b-md {
+
+    /*               // margin-bottom: 30px;*/
+}
+.flex-center{
+    background-image: url('/Pictures/homepage_background.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.content
+{
+    width: 100%;
+    height: 50%;
+    box-shadow: 20px 1px 10px #888888;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;  
+    color: #fff;
+}
